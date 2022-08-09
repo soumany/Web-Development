@@ -11,16 +11,19 @@
   <p>My Email: soumany06@gmail.com</p>
   <p>My Facebook: Sou Ma Ny</p>
   <p>Thank you for your contact.</p>
-  <form action="mailto:info@soumany.com" method="post">
+  <form action="mailto:info@soumany.com" method="post" enctype="text/plain">
     <label>Your name:</label>
-    <input type="text">
+    <input type="text" name="yourName" value="">
     <br>
     <br>
-    <label>Password</label>
-    <input type="password">
+    <label>Your Email</label>
+    <input type="email" name="yourEmail" value>
     <br>
     <br>
+    <label> Your Message</label>
+    <textarea name="yourMessage" id="" cols="30" rows="10"></textarea><br>
     <input type="submit">
+    
   </form>
 
 
