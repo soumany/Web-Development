@@ -1,0 +1,24 @@
+
+body {
+  background-color: pink;
+}
+h1
+{
+  color: #D36B00;
+}
+h3
+{
+  color: #D36B00;
+}
+
+
+hr {
+  
+  border-style: none;
+  height: 0px;
+  width: 5%;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+
+}
